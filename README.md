@@ -1,9 +1,4 @@
-# Flight booking app using Node and Vue
-
-This repository contains the source code for the blog article `Flight booking app using Node and Vue`. The article is split into two different parts:
-
-- [Part 1](https://developers.amadeus.com/blog/javascript-flight-booking-app-node-vuejs)
-- [Part 2](https://developers.amadeus.com/blog/javascript-flight-booking-app-node-vuejs-part-2)
+# Flight booking API using Node and TypeScript
 
 ## Running the code
 
@@ -19,23 +14,5 @@ CLIENT_SECRET=bar
 ```
 cd server
 npm install
-npm start
+npm dev
 ```
-
-3. Install the dependences and start the client:
-
-```
-cd client
-npm install
-npm run build && npm run serve
-```
-
-## License
-
-This library is released under the [MIT License](LICENSE).
-
-## Help
-
-You can find us on [StackOverflow](https://stackoverflow.com/questions/tagged/amadeus) or join our developer community on
-[Discord](https://discord.gg/cVrFBqx).
-
