@@ -1,5 +1,4 @@
-# Flight Saerching and Booking API using Node.js and TypeScript 
-## Build On Top Of Amadeus API
+# Flight Saerching and Booking API using Node.js and TypeScript Built On Top Of Amadeus API
 
 ## Running the code
 
