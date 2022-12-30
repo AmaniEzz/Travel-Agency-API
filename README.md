@@ -1,4 +1,4 @@
-# Flight booking API using Node and TypeScript
+# Flight booking REST API using Node.js and TypeScript Build on top of Amadeus API
 
 ## Running the code
 
