@@ -1,8 +1,8 @@
-# Flight booking REST API using Node.js and TypeScript Build on top of Amadeus API
+# Flight Booking API using Node.js and TypeScript Build On Top Of Amadeus API
 
 ## Running the code
 
-1- Go to [Amadeus developer](https://developers.amadeus.com/get-started/get-started-with-self-service-apis-335) website, create an account and obtain your credentials.
+1. Go to [Amadeus developer](https://developers.amadeus.com/get-started/get-started-with-self-service-apis-335) website, create an account and obtain your credentials.
 
 2. Create a new `server/.env` file and add your Amadues `client_id` and `client_secret` credentials as follows:
 
