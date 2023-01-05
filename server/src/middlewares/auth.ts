@@ -37,38 +37,3 @@ export function authMiddleware(
       );
   }
 }
-
-export function permissionMiddleware(
-  req: Request,
-  res: Response,
-  next: NextFunction
-) {
-  const token = req.cookies?.access_token || "";
-
-  if (token) {
-    try {
-      verifyJwt<User>(token, accessTokenPublicKey);
-      next();
-    } catch (err) {
-      res
-        .status(403)
-        .send(
-          new APIError(
-            403,
-            "Wrong authentication token",
-            errorDomain.UNAUTHENTICATED
-          )
-        );
-    }
-  } else {
-    res
-      .status(401)
-      .send(
-        new APIError(
-          401,
-          "Authentication token missing",
-          errorDomain.UNAUTHENTICATED
-        )
-      );
-  }
-}
