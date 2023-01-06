@@ -1,4 +1,8 @@
 # Flight Searching and Booking API using Node.js and TypeScript Built On Top Of Amadeus API
+```
+- Users can search flights using multiple filters. 
+- Only logged-in users can confirm and book a flight.
+````
 
 ## Running the code
 
